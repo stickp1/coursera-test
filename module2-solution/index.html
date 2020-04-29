@@ -3,80 +3,33 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title></title>
-<style>
+<title> module2assignment</title>
+<link rel="stylesheet" href="css/styles.css">
 
-/* Base styles */
-* {
-	box-sizing:border-box;
-	margin:0;
-	padding:0;
-}
-
-h1 {
-	margin-bottom: 15px;
-}
-section {
-	background-color: #00FFFF;
-	padding: 10px;
-	margin-bottom: 10px;
-	border: 1px solid black;
-	position: relative;
-}
-p.title {
-	position: absolute;
-	right: 0;
-	top: 0;
-}
-
-p.content {
-	margin-top: 5px;
-}
-
-p#chicken {
-	background-color: #A52A2A; 
-}
-
-p#beef {
-	background-color: #DEB887;
-}
-
-p#sushi {
-	background-color: #5F9EA0;
-}
-
-/* Desktop version */
-
-@media (min-width: 992px) {}
-
-/* Tablet version */
-
-@media (min-width: 768px) and (max-width: 991px) {}
-
-/* Mobile version */
-
-@media (max-width: 767px) {}
-
-</style>
 </head>
 <body>
-<h1>Our Mennu</h1>
+<h1>Our Menu</h1>
 
-<section class="col-lg-4 col-md-6">
-	<p class="title">Chicken</p>
+<div class="col-lg-4 col-md-6">
+	<section>
+		<p class="title" id="t1">Chicken</p>
+		<p class="content">lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat
+		</p>
+	</section>
+</div>
+<div class="col-lg-4 col-md-6">
+	<section>
+		<p class="title" id="t2">Beef</p>
+		<p class="content">lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat
+		</p>
+	</section>
+</div>
+<div class="col-lg-4 col-md-12">
+	<section>
+	<p class="title" id="t3">Sushi</p>
 	<p class="content">lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat
 	</p>
-</section>
-<section class="col-lg-4 col-md-6">
-	<p class="title">Beef</p>
-	<p class="content">lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat
-	</p>
-</section>
-<section class="col-lg-4 col-md-12">
-	<p class="title">Sushi</p>
-	<p class="content">lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat
-	</p>
-</section>
-
+	</section>
+</div>
 </body>
 </html>
